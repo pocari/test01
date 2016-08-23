@@ -1,0 +1,6 @@
+hash: 2a824240e067ac628c2f1eafb7718fd4e6c32ef23709110c0f3169b20448c8bc
+updated: 2016-08-23T22:34:13.012253043+09:00
+imports:
+- name: github.com/pocari/gosample
+  version: b2d7a057d86b90908a9255092fbbea1ccb48c008
+testImports: []

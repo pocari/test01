@@ -1,0 +1,3 @@
+package: github.com/pocari/test01
+import:
+- package: github.com/pocari/gosample
