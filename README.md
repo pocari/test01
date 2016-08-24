@@ -3,12 +3,14 @@
 ## install
 
 ```
-PROJECT_DIR=""
+PROJECT_DIR="project_dir_path"
 mkdir $PROJECT_DIR
 cd $PROJECT_DIR
-mkdir bin pkg src
 gvm pkgset create --local
-gmv pkgset use --local
+gvm pkgset use --local
+git clone git@github.com:pocari/test01.git src/github.com/pocari/test01
 go get github.com/Masterminds/glide
-go get github.com/pocari/test01
+go install github.com/Masterminds/glide
+cd src/github.com/pocari/test01
+glide up
 ```
